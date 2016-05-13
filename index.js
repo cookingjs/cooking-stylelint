@@ -3,7 +3,7 @@
  * @param  {*} options - custom option
  */
 
-module.exports = function (cooking, opiton) {
+module.exports = function (cooking, option) {
   cooking.add('preLoader.stylelint', {
     test: /\.s?(a|c)ss$/,
     exclude: /node_modules|bower_components/,

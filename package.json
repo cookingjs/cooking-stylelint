@@ -1,0 +1,27 @@
+{
+  "name": "cooking-stylelint",
+  "version": "0.1.0",
+  "description": "A cooking plugin.",
+  "keywords": [
+    "cooking"
+  ],
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cookingjs/cooking-stylelint.git"
+  },
+  "homepage": "https://github.com/cookingjs/cooking-stylelint#readme",
+  "bugs": {
+    "url": "https://github.com/cookingjs/cooking-stylelint/issues"
+  },
+  "author": "Haiping Zeng<haiping.zeng@ele.me>",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint": "^6.3.3",
+    "stylelint-config-standard": "^7.0.0",
+    "stylelint-loader": "^6.0.0"
+  },
+  "devDependencies": {}
+}

@@ -13,9 +13,12 @@ module.exports = function (cooking, opiton) {
   cooking.config.stylelint = {
     configOverrides: {
       rules: {
-        "extends": "stylelint-config-standard",
-        "indentation": "space"
+        "indentation": 2
       }
     }
+  }
+  
+  if(option.extendStandard) {
+    cooking.config.stylelint.configOverrides.extends = "stylelint-config-standard"
   }
 }

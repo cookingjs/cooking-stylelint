@@ -18,7 +18,7 @@ module.exports = function (cooking, opiton) {
     }
   }
   
-  if(option.extendStandard) {
+  if(option && option.extendStandard) {
     cooking.config.stylelint.configOverrides.extends = "stylelint-config-standard"
   }
 }
